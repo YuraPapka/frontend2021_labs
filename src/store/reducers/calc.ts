@@ -18,8 +18,6 @@ const calculate = (val1: string, val2: string, action: string): string | number 
   const parseVal1 = parseFloat(val1),
     parseVal2 = parseFloat(val2);
 
-  console.log(parseVal1, val1, parseVal2, val2);
-
   if (isNaN(parseVal1) && isNaN(parseVal2)) {
     if (action === '+') {
       return val1 + val2;
